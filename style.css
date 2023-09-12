@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+.outerbox{
+    width:100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right ,rgb(13, 233, 203),rgb(240, 243, 243));
+    
+   
+    
+    
+   
+
+}
+.innerbox{
+    display: inline-block;
+    position: absolute;
+    top: 4%;
+    left: 40%;
+    transform: translateY(50);
+    border: 3px solid rgb(13, 28, 56);
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow:2px 2px 5px rgb(47, 47, 185);
+    z-index: 2;
+    background: linear-gradient(to top left ,hsla(177, 92%, 48%, 0.719) ,rgb(233, 231, 231));
+}
+.inner-header{
+    padding: 7px;
+    margin: 5px;
+}
+.inner-header h1{
+    color: rgb(58, 16, 16);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+.inner-header p{
+    text-align: center;
+    font-size: medium;
+    padding: 5px;
+    color: #201c038f;
+    
+}
+.inner-main p{
+    line-height: 35px;
+}
+.inner-main label{
+    font-size: 29px;
+    padding: 10px 20px;
+}
+.inner-main input{
+    display: block;
+    padding: 5px 10px;
+    border: 1.5px solid rgb(7, 130, 201);
+    border-radius: 7px;
+}
+.create-button{
+    padding: 8px;
+    margin: 15px;
+    position: relative;
+    left: 10%;
+    border: 2px solid skyblue;
+
+}
+.create-button:hover{
+    background-color: rgba(17, 153, 163, 0.541);
+}
+
+
